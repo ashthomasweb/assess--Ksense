@@ -1,0 +1,104 @@
+/* styles.css */
+
+button {
+    padding: 10px;
+    border: 1px solid #444;
+}
+
+td {
+    border: 1px solid #222;
+    padding: 4px;
+}
+
+.message {
+    width: 500px;
+    margin: 30px auto;
+}
+
+.table-frame {
+    background-color: whitesmoke;
+    width: 60vw;
+    height: fit-content;
+    border: 1px solid #888;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+thead {
+    background-color: whitesmoke;
+}
+
+.table-1 {
+    background-color: white;
+    margin: 10px auto;
+}
+
+.get-post-btn {
+    background-color: lightblue;
+    margin: 3px;
+}
+
+.post-btn {
+    background-color: lightblue;
+    margin: 3px;
+    flex-grow: 1;
+    cursor: pointer;
+}
+
+.post-frame {
+    background-color: whitesmoke;
+    width: 60vw;
+    height: fit-content;
+    border: 1px solid #888;
+    margin: 20px auto;
+    padding: 30px;
+}
+
+.post-nav {
+    background-color: #ddd;
+    width: 70%;
+    height: 98px;
+    margin: 5px auto;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 2px;
+}
+
+.user-name {
+    margin: 4px 0 0 0;
+    font-size: 24px;
+    display: block;
+}
+
+.button-container {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 8px 14px;
+}
+
+.post-content {
+    border: 1px solid #888;
+    background-color: white;
+    height: 100px;
+    width: 76%;
+    margin: 10px auto;
+    padding: 15px;
+    min-height: 300px;
+}
+
+.post-title {
+    text-align: center;
+    margin: 15px auto 5px;
+    width: fit-content;
+    font-size: 34px;
+    border-bottom: 3px solid lightblue;
+    padding-bottom: 4px;
+}
+
+.post-text {
+    padding: 20px 35px;
+    font-size: 20px;
+    color: #444;
+}
+
+/* END of document */
